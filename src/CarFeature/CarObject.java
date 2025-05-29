@@ -23,6 +23,8 @@ public class CarObject {
         System.out.println("Car Year: "+ car.year);
          */
 
+        /*
+        [JA-3]
         Car car = new Car();
         car.setBrand("Toyota");
         car.setModel("Corolla");
@@ -30,5 +32,12 @@ public class CarObject {
         System.out.println("Car Brand: " + car.getBrand());
         System.out.println("Car Model: " + car.getModel());
         System.out.println("Car Year: " + car.getYear());
+         */
+
+        Car car = new Car("Hyundai","i20",2022,200);
+        System.out.println("Car Brand: " + car.getBrand());
+        System.out.println("Car Model: " + car.getModel());
+        System.out.println("Car Year: " + car.getYear());
+        System.out.println("Car Speed: " + car.speed);
     }
 }

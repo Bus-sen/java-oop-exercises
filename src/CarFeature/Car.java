@@ -1,18 +1,22 @@
 package CarFeature;
 
-public class Car {
+public class Car extends Vehicle {
     private String brand;
     private String model;
     private int year;
 
-    public Car(String brand, String model, int year) {
+    public Car(String brand, String model, int year, int speed) {
+        super(speed);
         this.brand = brand;
         this.model = model;
         this.year = year;
     }
+
+    /*
     public Car (){
 
     }
+     */
 
     public String getBrand() {
         return brand;
