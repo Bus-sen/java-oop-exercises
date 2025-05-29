@@ -15,9 +15,20 @@ public class CarObject {
         System.out.println("Car Year: " + car.year);
          */
 
+        /*
+        [JA-2]
         Car car = new Car("Hyundai","Accent",1999);
         System.out.println("Car Brand: "+ car.brand);
         System.out.println("Car Model: "+ car.model);
         System.out.println("Car Year: "+ car.year);
+         */
+
+        Car car = new Car();
+        car.setBrand("Toyota");
+        car.setModel("Corolla");
+        car.setYear(2023);
+        System.out.println("Car Brand: " + car.getBrand());
+        System.out.println("Car Model: " + car.getModel());
+        System.out.println("Car Year: " + car.getYear());
     }
 }
