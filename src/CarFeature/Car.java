@@ -12,6 +12,11 @@ public class Car extends Vehicle {
         this.year = year;
     }
 
+    @Override
+    public void start(){
+        System.out.println("Car starts");
+    }
+
     /*
     public Car (){
 
