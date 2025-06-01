@@ -1,4 +1,5 @@
-import CarFeature.Vehicle;
+import geometry.Circle;
+import geometry.Rectangle;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -19,7 +20,15 @@ public class Main {
         dog.makeSound();
          */
 
+        /*
+        [JA-7]
         System.out.println("Result: " + Calculator.add(23,14));
         System.out.println("Result2: " + Calculator.add(11,8,20));
+         */
+
+        Circle circle = new Circle();
+        circle.draw();
+        Rectangle rectangle = new Rectangle();
+        rectangle.draw();
     }
 }
