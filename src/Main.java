@@ -10,10 +10,16 @@ public class Main {
         System.out.println("Sonuç: " + Vehicle.Multi(5,9));
          */
 
+        /*
+        [JA-6]
         Animal cat = new Cat();
         Animal dog = new Dog();
 
         cat.makeSound();
         dog.makeSound();
+         */
+
+        System.out.println("Result: " + Calculator.add(23,14));
+        System.out.println("Result2: " + Calculator.add(11,8,20));
     }
 }
